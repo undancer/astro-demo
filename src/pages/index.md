@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/main.astro
+layout: ../layouts/default.vue
 title: Astro with Remark Plugins
 ---
 

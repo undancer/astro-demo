@@ -1,0 +1,9 @@
+export async function get({ params, request }) {
+  return {
+    body: `# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:`,
+  }
+}

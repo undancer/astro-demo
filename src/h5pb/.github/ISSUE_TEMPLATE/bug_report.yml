@@ -1,8 +1,8 @@
 name: Report a bug
 description: Tell us about a bug or issue you may have identified in HTML5 Boilerplate.
-title: "Provide a general summary of the issue"
+title: Provide a general summary of the issue
 labels: [bug]
-assignees: "-"
+assignees: '-'
 body:
   - type: checkboxes
     attributes:
@@ -55,6 +55,6 @@ body:
     id: version
     attributes:
       label: What version of HTML% Boilerplate are you using?
-      placeholder: "e.g., v8.0.0 or v7.1.0"
+      placeholder: 'e.g., v8.0.0 or v7.1.0'
     validations:
       required: true

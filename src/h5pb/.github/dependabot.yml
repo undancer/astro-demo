@@ -1,17 +1,16 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: "/"
+    directory: /
     schedule:
       interval: monthly
     versioning-strategy: increase
   - package-ecosystem: npm
-    directory: "/src/"
+    directory: /src/
     schedule:
       interval: monthly
     versioning-strategy: increase
   - package-ecosystem: github-actions
-    directory: "/"
+    directory: /
     schedule:
       interval: monthly
-      

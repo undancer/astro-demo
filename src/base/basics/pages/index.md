@@ -31,12 +31,12 @@ tempor. Et velit dolor aliqua dolor ipsum. Sunt eiusmod amet enim ut.
 import Router from 'next/router'
 
 function MyComponent() {
-	const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false)
 
-	useEffect(() => {
+  useEffect(() => {
     console.log(2)
-	}, [])
+  }, [])
 
-	return <>...</>
+  return <>...</>
 }
 ```

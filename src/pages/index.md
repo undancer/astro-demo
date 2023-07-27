@@ -23,12 +23,12 @@ Sint ullamco sint ut irure laborum occaecat anim minim tempor enim dolore repreh
 import Router from 'next/router'
 
 function MyComponent() {
-	const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false)
 
-	useEffect(() => {
+  useEffect(() => {
     console.log(2)
-	}, [])
+  }, [])
 
-	return <>...</>
+  return <>...</>
 }
 ```

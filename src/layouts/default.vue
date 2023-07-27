@@ -7,16 +7,15 @@
 <template>
   <!DOCTYPE html>
   <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-<!--    <BaseHead title={title} />-->
-  </head>
-  <body>
-  <slot /> <!-- 你的内容会被插入到这里 -->
-<!--  <Footer />-->
-
-  </body>
+    <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+      <!--    <BaseHead title={title} /> -->
+    </head>
+    <body>
+      <slot /> <!-- 你的内容会被插入到这里 -->
+      <!--  <Footer /> -->
+    </body>
   </html>
 </template>
 

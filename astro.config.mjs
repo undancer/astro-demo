@@ -6,7 +6,11 @@ import vue from '@astrojs/vue';
 import solid from '@astrojs/solid-js';
 import addClasses from './add-classes.mjs';
 import sitemap from '@astrojs/sitemap';
-import mdx from "@astrojs/mdx";
+// import mdx from "@astrojs/mdx";
+
+function netlify() {
+    return undefined;
+}
 
 // https://astro.build/config
 export default defineConfig({
@@ -31,4 +35,6 @@ export default defineConfig({
             [addClasses, {'h1,h2,h3': 'title'}],
         ],
     },
+    output: 'server',
+    adapter: netlify(),
 });

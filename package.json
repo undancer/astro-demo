@@ -15,6 +15,7 @@
   "dependencies": {
     "@astrojs/markdown-remark": "^2.2.1",
     "@astrojs/mdx": "^0.19.7",
+    "@astrojs/netlify": "^2.5.0",
     "@astrojs/preact": "^2.2.1",
     "@astrojs/react": "^2.2.1",
     "@astrojs/rss": "^2.4.3",

@@ -7,10 +7,7 @@ import solid from '@astrojs/solid-js';
 import addClasses from './add-classes.mjs';
 import sitemap from '@astrojs/sitemap';
 // import mdx from "@astrojs/mdx";
-
-function netlify() {
-    return undefined;
-}
+import netlify from '@astrojs/netlify/functions';
 
 // https://astro.build/config
 export default defineConfig({

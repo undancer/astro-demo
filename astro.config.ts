@@ -13,6 +13,9 @@ import addClasses from './add-classes.mjs'
 
 // https://astro.build/config
 export default defineConfig({
+  // 你的配置项都在这里
+  // https://docs.astro.build/zh-cn/reference/configuration-reference/
+
   // site: 'https://example.com',
   // Enable many frameworks to support all different kinds of components.
   integrations: [

@@ -1,6 +1,5 @@
 <script setup lang="ts">
-
-import {defineProps} from 'vue'
+import { defineProps } from 'vue'
 
 interface Props {
   title: string
@@ -8,15 +7,12 @@ interface Props {
   image?: string
 }
 
-const {title, description} = defineProps<Props>()
-
-
+const { title, description } = defineProps<Props>()
 </script>
 
 <template>
-
   <meta charset="utf-8">
-  <title>{{title}}</title>
+  <title>{{ title }}</title>
   <meta name="description" :content="description">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,7 +30,6 @@ const {title, description} = defineProps<Props>()
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
-
 </template>
 
 <style scoped>
